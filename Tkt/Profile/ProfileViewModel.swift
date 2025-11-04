@@ -12,6 +12,6 @@ class ProfileViewModel {
     var nom: String = "LaSalle"
     var age: Int = 25
     var bio: String = "J'ai plus joué à GTA que RockstarGames"
-    var imageName: String = "person.circle.fill"
+    var imageName: ImageResource = .avatar
     var imageData: Data? = nil
 }

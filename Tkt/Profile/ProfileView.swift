@@ -32,7 +32,7 @@ struct ProfileView: View {
                         .clipShape(Circle())
                         .overlay(Circle().stroke(Color.white, lineWidth: 3))
                 } else {
-                    Image(systemName: profileviewmodel.imageName)
+                    Image (profileviewmodel.imageName)
                         .resizable()
                         .scaledToFit()
                         .frame(width: 100, height: 100)
